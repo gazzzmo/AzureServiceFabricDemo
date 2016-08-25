@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "AzureServiceFabricDemo", "AzureServiceFabricDemo\AzureServiceFabricDemo.sfproj", "{79BF49FD-340E-40A0-B740-2ED3F45FB922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStatefulService", "MyStatefulService\MyStatefulService.csproj", "{ACBC825D-6F85-4F8B-A31F-4748087230F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Debug|x64.ActiveCfg = Debug|x64
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Debug|x64.Build.0 = Debug|x64
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Debug|x64.Deploy.0 = Debug|x64
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Release|x64.ActiveCfg = Release|x64
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Release|x64.Build.0 = Release|x64
+		{79BF49FD-340E-40A0-B740-2ED3F45FB922}.Release|x64.Deploy.0 = Release|x64
+		{ACBC825D-6F85-4F8B-A31F-4748087230F1}.Debug|x64.ActiveCfg = Debug|x64
+		{ACBC825D-6F85-4F8B-A31F-4748087230F1}.Debug|x64.Build.0 = Debug|x64
+		{ACBC825D-6F85-4F8B-A31F-4748087230F1}.Release|x64.ActiveCfg = Release|x64
+		{ACBC825D-6F85-4F8B-A31F-4748087230F1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
